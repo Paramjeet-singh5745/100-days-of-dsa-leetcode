@@ -2,6 +2,8 @@
 🧠 100 Days of DSA Challenge | Solving 1 LeetCode question every day | #DSAwithedSlash
 ## 📌 Daily Progress 
 
+## 📌 Daily Progress 
+
 | Day | Problem | Difficulty | Topic | Solution |
 |-----|---------|------------|--------|----------|
 | 1 | Palindrome Number | Easy | Math | [Code](./Day%2001%20-%20Palindrome%20Number/palindrome_number.java) |
