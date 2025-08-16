@@ -1,0 +1,17 @@
+# 49 - Decode String
+
+🔗 [LeetCode Problem Link](https://leetcode.com/problems/decode-string/)  
+📌 Difficulty: Medium  
+📚 Topic: Stack / String Decoding  
+🖥️ Language: Java  
+
+## 💡 Approach
+- Maintained two stacks:  
+  - **Count stack** for storing repeat numbers.  
+  - **String stack** for storing partial decoded strings.  
+- On encountering `[`, pushed the current string and count.  
+- On encountering `]`, popped and repeated the substring.  
+- Built the final result step by step.  
+
+## ✅ Code
+See `decode_string.java` in this folder.
