@@ -1,0 +1,20 @@
+# 65 - Double a Number Represented as a Linked List
+
+🔗 [LeetCode Problem Link](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)  
+📌 Difficulty: Medium  
+📚 Topic: Linked List  
+🖥️ Language: Java  
+
+## 💡 Approach
+1. Use recursion or a stack to process digits from the end.  
+2. Double each node’s value and keep track of carry.  
+3. Update current node value to `(value * 2 + carry) % 10`.  
+4. Carry becomes `(value * 2 + carry) / 10`.  
+5. If carry is left after processing head, insert a new node at the front.  
+
+## ⏱️ Complexity
+- **Time:** O(n) → each node is processed once.  
+- **Space:** O(n) in case of recursion/stack, O(1) with iterative reversal.  
+
+## ✅ Code
+See `double_a_number_represented_as_a_linked_list.java` in this folder.
